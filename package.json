@@ -1,8 +1,13 @@
 {
   "name": "todo-project",
+  "homepage": "https://github.com/rajan-kashyap27/TodoProject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "git": "^0.1.5",
     "npm-git-install": "^0.3.0",
