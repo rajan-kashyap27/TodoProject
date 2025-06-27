@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+}
+.heading{
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+input {
+    outline:none;
+    border-radius: 12px 0px 0px 12px;
+    border: none;
+    padding: 6px 10px;
+}
+.uList{
+    padding: 0;
+}
+.btn{
+    padding: 6px 10px;
+    background-color: rgb(0, 98, 255);
+    color: whitesmoke;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: green;
+}
+li{
+    list-style: none;
+}
+.items{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: black;
+    background-color: white;
+    width: 200px;
+    padding: 4px 30px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.check-btn, .delete-btn {
+  background-color: transparent !important;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.check-btn{
+    background-color: rgb(47, 255, 113) !important;
+    padding: 2px;
+    color: white;
+    border-radius: 50%;
+}
+.delete-btn{
+    background-color: red !important;
+    padding: 1px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+.buttons{
+    margin-left: 10px;
+}
+.clear-btn{
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 18px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.clear-btn:hover{
+    background-color: lightseagreen;
+}
+.checkList{
+    text-decoration: line-through;
+}
+.notChecklist{
+    text-decoration: none;
+}
